@@ -8,9 +8,17 @@ public class Question01_1 {
 
 	public static void main(String[] args) {
 
-		int prise = 120;
+		int price = 120;
+		String item = "ノート";
 
-		String item = ノート;
+		System.out.println(price);
+		System.out.println(item);
+
+		price = 200;
+		item = "鉛筆";
+
+		System.out.println(price);
+		System.out.println(item);
 
 	}
 
